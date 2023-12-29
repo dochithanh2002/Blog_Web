@@ -1,0 +1,26 @@
+$primaryColor: #000000;
+$secondaryColor: #747474;
+$primaryFont: "Figtree", Verdana, Geneva, Tahoma, sans-serif;
+$breakpoint-md: 767px;
+
+$darkThemeBg: #091922;
+$lightThemeBg: #f3f4f9;
+
+$primaryBlue: #2499ef;
+$darkThemeprimaryBlue: #2499ef;
+$lightThemeprimaryBlue: #2499ef;
+
+@import "./components/mixins";
+@import "./components/menu";
+@import "./components/loader";
+@import "./components/editor";
+@import "./components/overrides";
+
+* {
+  font-family: "Figtree", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+//overrides
+.se-image-container.__se__float-center {
+  text-align: center;
+}
